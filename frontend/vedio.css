@@ -1,0 +1,36 @@
+.dash {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 50px;
+    padding: 30px;
+    margin: 5px;
+    background-color: yellow;
+  }
+
+  li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+  a{
+    color: aliceblue;
+    font-style: oblique;
+  }

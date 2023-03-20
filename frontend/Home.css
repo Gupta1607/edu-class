@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    border-radius: 24px;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .sticker{
+    width:30% ;
+     height: 400px;
+     float: left;
+     margin-left: 2%;
+     text-align: center;
+     background-color: rgba(245, 173, 245, 0.68);
+     border-radius: 10px;
+  }
+
+  .dash {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 50px;
+    padding: 30px;
+    margin: 5px;
+    background-color: yellow;
+  }
+
+  li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #para2 {
+    position:relative;
+    left: 100px;
+    bottom: 10px;
+    height: 40px;
+    width: 200px;
+    font-size:18px;
+  }
+  
+  a{
+    color: aliceblue;
+    font-style: oblique;
+  }
+  .low {
+    background-image: url("design2.jpg");
+  }
+  
+  .col2 {
+    float: left;
+    width: 47%;
+    padding: 15px;
+   }
+  
+  /* Clear floats after image containers */
+  .row2::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .dg {
+    position:relative;
+    top: 10px;
+    bottom: 30px;
+    right: 10px;
+    left: 10px;
+     font-size: 30px;
+     text-align: center;
+     font-family:Franklin Gothic Medium;
+     color:black;
+  }
+  .col3 {
+    float: left;
+    width: 47.5%;
+    padding: 15px;
+   }
+  
+  /* Clear floats after image containers */
+  .row3::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .col4 {
+    float: left;
+    width: 47.5%;
+    padding: 15px;
+   }
+  
+  /* Clear floats after image containers */
+  .row4::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .col5 {
+    float: left;
+    width: 47.5%;
+    padding: 15px;
+   }
+  
+  /* Clear floats after image containers */
+  .row5::after {
+    display: table;
+    content: "";
+    clear: both;
+  }  
